@@ -1,0 +1,25 @@
+{
+  "name": "ferreteria-xyz",
+  "version": "1.0.0",
+  "description": "examen con node js y express",
+  "keywords": [
+    "crud",
+    "proveedores",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Juan Garcia",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "nodemon": "^3.1.14"
+  }
+}
